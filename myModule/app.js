@@ -6,7 +6,13 @@ let app3 = require("./app3");
 // console.log(__dirname);
 // console.log(__filename);
 
-// console.log(module);
+//console.log(module);
 app2.morning(); //Good morning!!!
 app3.lunch();
 app2.evening(); //Good evening!!!s
+
+function midNight() {
+  console.log("Mid night!!!");
+}
+
+module.exports.midNight = midNight;
