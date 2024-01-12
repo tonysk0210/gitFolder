@@ -2,4 +2,4 @@ function lunch() {
   console.log("Lunch time now !!!");
 }
 
-exports.lunch = lunch;
+exports.lunch = lunch; //export function
